@@ -15,7 +15,9 @@
     "logConfig": {
       "enabled": true,
       "level": "debug",
-      "forceConsole": true
+      "forceConsole": true,
+      "logToFile": false,
+      "filename": "/config/.zwjs/zjws.log"
     },
     "storage": {
       "cacheDir": "/config/.zwjs"
@@ -28,7 +30,9 @@
     "logConfig": {
       "enabled": "bool",
       "level": "list(trace|debug|info|notice|warning|error|fatal)",
-      "forceConsole": "bool"
+      "forceConsole": "bool",
+      "logToFile": "bool",
+      "filename": "str"
     },
     "storage": {
       "cacheDir": "str"
