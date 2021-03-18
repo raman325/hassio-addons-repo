@@ -8,5 +8,4 @@ echo "Fetching latest server version from $SERVER_SOURCE..."
 npm install ${SERVER_SOURCE}
 
 echo "Start Z-Wave Js Server using $SERIAL_PORT"
-exec ./node_modules/.bin/zwave-server "$SERIAL_PORT" --config /data/options.json   
-
+./node_modules/.bin/zwave-server "$SERIAL_PORT" --config /data/options.json   
